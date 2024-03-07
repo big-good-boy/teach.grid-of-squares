@@ -1,0 +1,21 @@
+.rhomb {
+	background: gray;
+}
+.rhomb__list {
+	background: yellow;
+}
+.rhomb__item {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	/* overflow: hidden; */
+	border: 1px solid gray;
+	transform: rotate(-45deg);
+}
+.rhomb__content {
+	position: absolute;
+	left: -100%;
+	transform: rotate(45deg);
+}
+.rhomb__text {
+}
